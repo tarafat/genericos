@@ -5,13 +5,11 @@ const double kbreakMobileView = 780.00;
 class Responsive extends StatelessWidget {
   final Widget desktop;
   final Widget mobile;
-  final Widget tablet;
 
   const Responsive({
     Key? key,
     required this.desktop,
     required this.mobile,
-    required this.tablet,
   }) : super(key: key);
 
 // This size work fine on my design, maybe you need some customization depends on your design
@@ -34,10 +32,6 @@ class Responsive extends StatelessWidget {
       builder: (context, constraints) {
         if (constraints.maxWidth >= kbreakMobileView) {
           return desktop;
-        }
-        // If width it less then 1100 and more then 650 we consider it as tablet
-        else if (constraints.maxWidth <= kbreakMobileView) {
-          return tablet;
         }
         // Or less then that we called it mobile
         else {
