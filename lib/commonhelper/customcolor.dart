@@ -6,6 +6,7 @@ const kbuttonColor = Color(0xffE31D1C);
 const kblackGray = Color(0xff959595);
 const kblackGray2 = Color(0xffB2B2B2);
 const kgooglTheme = Color(0xffDF4D3C);
+const kdeviderColor = Color(0xffD6D6D6);
 //static Color themeColor = Colors.blueGrey[900];
 //static const themeColor = Color.fromRGBO(232, 62, 140, 0.8);
 //static const themeColor = Color(0xffd79C949);

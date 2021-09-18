@@ -20,9 +20,8 @@ class MobileWidget extends StatelessWidget {
           const Spacer(flex: 2),
           Flexible(
             flex: 19,
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              crossAxisAlignment: CrossAxisAlignment.start,
+            child: Flex(
+              direction: Axis.vertical,
               children: [
                 SizedBox(
                   height: 130.h,
@@ -145,22 +144,23 @@ class MobileWidget extends StatelessWidget {
                     ],
                   ),
                 ),
-                if (ScreenUtil().screenHeight > 749)
-                  Flexible(
-                    fit: FlexFit.loose,
-                    child: Center(
-                      child: SizedBox(
-                        height: 100.h,
-                        width: double.infinity,
-                        child: FittedBox(
-                          child: Image.asset(
-                            kfoodPicture,
-                          ),
-                          fit: BoxFit.cover,
+                // if (ScreenUtil().screenHeight > 749)
+                Flexible(
+                  fit: FlexFit.loose,
+                  child: Center(
+                    child: Container(
+                      // color: Colors.blueGrey,
+                      height: 200.h,
+                      width: double.infinity,
+                      child: FittedBox(
+                        child: Image.asset(
+                          kfoodPicture,
                         ),
+                        fit: BoxFit.fitHeight,
                       ),
                     ),
-                  )
+                  ),
+                )
               ],
             ),
           ),

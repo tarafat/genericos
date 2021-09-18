@@ -1,3 +1,9 @@
 const String kAppbarlogo = 'assets/images/logos/appbarlogo.png';
 const String kprofilePicture = 'assets/images/others/profilepicture.png';
 const String kfoodPicture = 'assets/images/foods/serachpannelfood.png';
+const String kmyoPicture = 'assets/images/others/myo.png';
+const String ksaoPicture = 'assets/images/others/sao.png';
+const String kvopPicture = 'assets/images/others/vop.png';
+const String koffer1Picture = 'assets/images/others/offer1.png';
+const String kpopularItem1 = 'assets/images/others/popularItem1.png';
+const String koutlets1 = 'assets/images/others/outlets1.png';

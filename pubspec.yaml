@@ -67,6 +67,12 @@ flutter:
     - assets/images/logos/appbarlogo.svg
     - assets/images/others/profilepicture.png
     - assets/images/foods/serachpannelfood.png
+    - assets/images/others/myo.png
+    - assets/images/others/sao.png
+    - assets/images/others/vop.png
+    - assets/images/others/offer1.png
+    - assets/images/others/popularItem1.png
+    - assets/images/others/outlets1.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
